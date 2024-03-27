@@ -42,7 +42,8 @@ main .left{
 .icons{
     display: flex;
     align-items: center;
-
+    background-color: #EFF0F2;
+    width: 70%;
 }
 .icons img{
     width: 50px;
@@ -57,6 +58,10 @@ main .left{
     width: 300px;
     height: 300px;
     border-radius: 20px;
+    
+}
+
+.right .profil-photo{
     align-items: center;
 }
 
@@ -72,6 +77,11 @@ main .left{
 }
 .right h2{
     text-align: center;
+}
+
+.profil-img {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (min-width: 500px){
