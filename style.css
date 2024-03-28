@@ -1,19 +1,16 @@
-body main{
+
+main{
     display: flex;
     justify-content: space-between;
 }
 .right{
-    position: absolute;
     background-color: #e4e4e6;
-    width: 30%;
-    height: 180%;
     padding-left: 50px;
-    right: 0px;
-    top: 150px;
+    margin-top: -100px;
     z-index: 1000;
     border-top-left-radius: 20px;
     justify-content: left;
-    text-align: left;
+    text-align: left; 
 }
 li{
     width: 200px;
@@ -55,10 +52,9 @@ main .left{
     margin-top: -100px;
 }
 .profil-photo{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
-    
 }
 
 .right .profil-photo{
@@ -79,13 +75,14 @@ main .left{
     text-align: center;
 }
 
-.profil-img {
-    display: flex;
-    justify-content: center;
-}
-
-@media screen and (min-width: 500px){
-    
+@media screen and (max-width: 600px){
+    main{
+        display: block;
+    }
+    .right{
+        padding-top: 20px;
+        margin-top: 150px;
+    }
 }
 @media screen and (min-width: 300px){
     
